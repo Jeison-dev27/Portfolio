@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="https://kit.fontawesome.com/1918801943.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <img id="toggle-icon" src="assets/icons/moon.svg" alt="Icon theme" class="toggle-theme_icon">
+        <p id="toggle-text" class="toggle-theme_text">Dark Mode</p>
+      </div>
+    </div>
+
+    <div id="toggle-colors" class="colors">
+      <div data-color=" hsl(214, 84%, 56%)" class="colors_item colors_item--blue"></div>
+
+      <div data-color=" hsl(150, 84%, 56%)" class="colors_item colors_item--green"></div>
+
+      <div data-color=" hsl(276, 84%, 56%)" class="colors_item colors_item--purple"></div>
+
+      <div data-color=" hsl(46, 84%, 56%)" class="colors_item colors_item--orange"></div>
+
+    </div>
+
+  </header>
+  <main class="main">
+    <section class="colum colum--left">
+      <!-- Profile card-->
+      <article class="card card--profile">
+        <div class="card__image-container">
+          <img src="assets/images/WhatsApp Image 2023-05-10 at 10.29.30 AM.jpeg" alt="">
+        </div>
+        <div class="card__header">
+          <h2 class="card__title  no-margin">Jeison Reyes </h2>
+          <p class="card__subtitle">Frontend Developer Junior</p>
+        </div>
+        <div class="card__body">
+          <div class="card__link">
+            <i class="fa-regular fa-envelope icon"></i>
+            <a href="mailto:jeisonrepz@gmail.com">jeisonrepz@gmail.com</a>
+          </div>
+          <div class="card__link">
+            <i class="fas fa-phone icon"></i>
+            <a href="tel:8299359014">+1829-935-9014</a>
+          </div>
+          <p class="card__text">
+            Como estudiante de ingenieria en software y Frontend Developer Junior, me encuentro entusiasmado
+            por alcanzar mi mas alto nivel de desarrollo en las tecnologias HTML, CSS y JAVASCRIPT. <br />
+            Con ello poder servir en las necesidades y requerimientos de la empresa en cada proyecto que me vea
+            involucrado,
+            participar activamente, brindar soluciones y ser una pieza clave en el proceso.
+          </p>
+        </div>
+      </article>
+      <article class="card card--experience">
+        <!--TARJETAS DE EXPERIENCIA-->
+        <h2 class="card__title">Practicas</h2>
+        <div class="experience">
+          <div class="experience__info">
+            <p class="experience__time">
+              Ene 2022 - Actualidad
+            </p>
+            <h3 class="experience__job">Frontend Developer Student</h3>
+            <p class="experience__description">Me he basado en la creacion de paginas de
+              paginas web de distintas tematicas y funcionalidades, un tanto basicas y otras
+              un poco mas complejas, y asi poder ir aprendiendo mas sobre el tema.
+            </p>
+          </div>
+        </div>
+
+      </article>
+      <article class="card card--hobbies ">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="card__image-container">
+          <img src="assets/images/libros2.jpg_1758632412.webp" alt="Man on a bike" class="bike">
+        </div>
+        <h3 class="hoobie__title">Bikind</h3>
+        <p class="card__text">Letura </p>
+        <p class="card__text">Tocar la guitarra</p>
+        <p class="card__text">Ejercicios </p>
+
+
+      </article>
+    </section>
+    <section class="column column--right">
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small>Dominio del lenguaje</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0 </span>
+            <span class="skills__start-level">100</span>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <img src="assets/logos/file_type_html_icon_130541.png" alt="" class="logo">
+
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small>Dominio del lenguaje</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0 </span>
+            <span class="skills__start-level">100</span>
+          </div>
+
+
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <img src="assets/logos/css_original_wordmark_logo_icon_146576.png" alt="" class="logo">
+
+        </div>
+      </article>
+      <article class="card">
+        <h2 class="card__title">Front End</h2>
+        <small>Dominio del lenguaje</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-level">0 </span>
+            <span class="skills__start-level">100</span>
+          </div>
+
+          <div class="skills__item">
+            <p class="skills__tech">JavasScript</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+
+          <img src="assets/logos/javascript_icon_130900.png" alt="" class="logo">
+
+        </div>
+      </article>
+
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/Captura desde 2023-05-12 17-35-16.png" alt="Landing page" class="card__image-page">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#Responsive</span>
+
+          </div>
+
+          <h2 class="card__title">Pagina de restaurante</h2>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore repellat
+            voluptatum placeat vitae
+            quam natus eligendi autem repellendus doloribus consectetur consequuntur fugiat, velit aut?</p>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore repellat
+            voluptatum placeat vitae
+            quam natus eligendi autem repellendus doloribus consectetur consequuntur fugiat, velit aut?</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Jeison-dev27/Restaurante-modelo" class="button button--ghost"
+              target="_blank">Code</a>
+          </div>
+        </div>
+
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/Captura desde 2023-05-16 14-15-43.png" alt="Landing page" class="card__image-page">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#Responsive</span>
+
+          </div>
+
+          <h2 class="card__title">Pagina de fotografias</h2>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore repellat
+            voluptatum placeat vitae
+            quam natus eligendi autem repellendus doloribus consectetur consequuntur fugiat, velit aut?</p>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore repellat
+            voluptatum placeat vitae
+            quam natus eligendi autem repellendus doloribus consectetur consequuntur fugiat, velit aut?</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Jeison-dev27/Fotografias-web" class="button button--ghost"
+              target="_blank">Code</a>
+          </div>
+        </div>
+
+      </article>
+      <article class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/Captura desde 2023-05-16 14-18-34.png" alt="Landing page" class="card__image-page">
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#HTML</span>
+            <span class="project__tag">#CSS</span>
+            <span class="project__tag">#Responsive</span>
+
+          </div>
+
+          <h2 class="card__title">Pagina de Gymnasio</h2>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore repellat
+            voluptatum placeat vitae
+            quam natus eligendi autem repellendus doloribus consectetur consequuntur fugiat, velit aut?</p>
+          <p class="card__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt tempore repellat
+            voluptatum placeat vitae
+            quam natus eligendi autem repellendus doloribus consectetur consequuntur fugiat, velit aut?</p>
+          <div class="buttons">
+            <a href="#" class="button button--primary">Demo</a>
+            <a href="https://github.com/Jeison-dev27/Gym-web" class="button button--ghost" target="_blank">Code</a>
+          </div>
+        </div>
+
+      </article>
+    </section>
+  </main>
+  <script src="js/scripts.js"></script>
+</body>
+
+
+</html>
