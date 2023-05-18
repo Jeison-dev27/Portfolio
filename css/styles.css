@@ -278,6 +278,13 @@ animation: skills-bar-fill 2s ease-in-out forwards;
     font-size: 0 .6rem;
     width: 275px;
 }
+.project__tags-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: .5em;
+    font-size: 0 .6rem;
+    width: 275px;
+}
 @media screen and (min-width: 760px) {
 .project__tags{
     width: 325px;
